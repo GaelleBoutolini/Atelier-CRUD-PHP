@@ -56,7 +56,9 @@
           ?>
       </table>
 
-      <!-- //pour résoudre le problème de d'ajout et de l'auto-incrémente de l'id, j'ai du supprimer la table "intervenir , puis la récréer" -->
+      <!-- //pour résoudre le problème de d'ajout et de l'auto-incrémente de l'id, j'ai du supprimer la table "intervenir , puis la récréer"
+    LEBOSS GILLES M 6860.00 762.25 1
+  ORGAN INGRID F  5336.00 846.93-->
     </div>
   </body>
 </html>
