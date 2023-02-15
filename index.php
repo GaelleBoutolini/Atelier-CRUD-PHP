@@ -8,6 +8,7 @@
   <title>Page d'entête</title>
 </head>
 <body>
+  
   <?php
   include("header.php");
   include("footer.php");
@@ -55,6 +56,7 @@
           ?>
       </table>
 
+      <!-- //pour résoudre le problème de d'ajout et de l'auto-incrémente de l'id, j'ai du supprimer la table "intervenir , puis la récréer" -->
     </div>
   </body>
 </html>
