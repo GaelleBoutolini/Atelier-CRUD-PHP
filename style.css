@@ -105,10 +105,10 @@ img{
 
 
 tr:nth-child(2n){
-    background-color: #6ca8a8;
+    background-color: #7ea86c;
 }
 tr:nth-child(2n) td {
-    border-bottom: 1px solid #97e7b1;
+    border-bottom: 1px solid #e797e6;
     border-top: 1px solid #e0e0e0
 }
 footer {

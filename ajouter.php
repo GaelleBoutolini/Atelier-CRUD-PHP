@@ -32,14 +32,11 @@ $SRVNO = $_POST['SRVNO'];
          }else{//sinon 
             $message ="Employé non ajouté";
          }
-
        }else{
         //sinon
         $message = "Veuillez remplir tous les champs !";
-
        }
     }
-     
     ?>
     <div class="form">
         <a href="index.php" class="back_btn"><img src="/images/back.png" alt="">Retour</a>

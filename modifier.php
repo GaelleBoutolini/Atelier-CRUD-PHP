@@ -20,15 +20,11 @@ $id = $_GET['EMPNO'];
 $response = $bdd->query('SELECT * FROM employes');
 $donnees = $response->fetch();
 
-// Cette ligne elle effectue une assignation de valeur à une variable appelée $donnees. La valeur qui est assignée à $donnees provient d'un objet $response qui semble être un objet PDOStatement ou un objet similaire retourné par une requête SQL exécutée via le PHP Data Object (PDO) ou un autre moyen de communication avec une base de données. La méthode fetch() est appelée sur l'objet $response, ce qui renvoie une ligne de résultat de la requête SQL sous forme d'un tableau associatif. Ce tableau associatif est assigné à la variable $donnees.
-
-
-
     //vérifier que le bouton ajouter a bien été cliquer
     if(isset($_POST['button'])){
        //extraction des informations envoyés dans des variables par la méthode POST
        extract($_POST);
-       //vérifier que tous les champs pnt été remplis
+       //vérifier que tous les champs ont été remplis
        
         $sql = $bdd->query("UPDATE employes SET EMPNOM = '$EMPNOM', EMPPREN = '$EMPPREN', EMPSEXE= '$EMPSEXE' , EMPSALAIRE='$EMPSALAIRE', EMPPRIME='$EMPPRIME', SRVNO='$SRVNO' WHERE EMPNO = $id");
          
@@ -43,7 +39,6 @@ $donnees = $response->fetch();
         $message = "Veuillez remplir tous les champs !";
 
        }
-     
     ?>
     <div class="form">
         <a href="index.php" class="back_btn"><img src="/images/back.png" alt="">Retour</a>
@@ -53,7 +48,6 @@ $donnees = $response->fetch();
                 if(isset($message)){
                     echo $message;
                 }
-
             ?>
         </p>
         <form action="" method="POST">

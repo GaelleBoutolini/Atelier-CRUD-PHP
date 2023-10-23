@@ -5,10 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
-  <title>Page d'entête</title>
+  <title>Page accueil</title>
 </head>
 <body>
-  
   <?php
   include("header.php");
   include("footer.php");
@@ -55,10 +54,6 @@
           }
           ?>
       </table>
-
-      <!-- //pour résoudre le problème de d'ajout et de l'auto-incrémente de l'id, j'ai du supprimer la table "intervenir , puis la récréer"
-    LEBOSS GILLES M 6860.00 762.25 1
-  ORGAN INGRID F  5336.00 846.93-->
     </div>
   </body>
 </html>
